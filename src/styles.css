@@ -8,14 +8,20 @@
   font-size: 1.5rem;
 }
 
+a {
+  text-decoration: none;  
+}
+
 img {
  width: 50%;
  border-radius: 10%;
 }
-.image{
+
+.image {
   display: flex;
   justify-content: center;
 }
+
 section {
   /* display: flex;
   flex-direction: column;
@@ -26,9 +32,12 @@ section {
   margin-bottom: 7vh;
 }
 
-h1{
+h1 {
   display: flex;
   justify-content: center;
   color: brown;
-  /* font-size: 2rem; */
+  font-size: 2rem;
+}
+h2 {
+  text-decoration: underline;
 }
