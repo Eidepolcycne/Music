@@ -1,7 +1,26 @@
+nav {
+  position: fixed;
+  top : 0;
+  height: 6vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  font-size: 1.8rem;
 }
+
 li {
+  font-size: larger;
   cursor: pointer;
+}
+
+.nav-item-active{
+  color: brown;
 }
