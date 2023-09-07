@@ -1,13 +1,10 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap"); */
-
 * {
   list-style: none;
   font-family: "Dancing Script", cursive;
-  /* font-family: "Libre Baskerville", serif; */
-
   margin: 0;
   padding: 0;
   background-color: rgb(252, 209, 177);
+  font-size: 1.2rem;
 }
 
 a {
@@ -26,14 +23,14 @@ img {
 }
 
 section {
-  margin: 7vh 1vw;
+  margin: 11.5vh 1.5vw;
 }
 
 h1 {
   display: flex;
   justify-content: center;
   color: brown;
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 
 h2 {
@@ -50,7 +47,4 @@ h2 {
     font-size: 2rem;
   }
 
-  h2 {
-    text-decoration: underline;
-  }
 }

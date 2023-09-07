@@ -1,11 +1,17 @@
 nav {
   position: fixed;
   top : 0;
-  height: 6vh;
+  height: 11vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  color:brown;
 }
 
 ul {
@@ -13,7 +19,6 @@ ul {
   justify-content: space-around;
   align-items: center;
   height: 100%;
-  font-size: 1.8rem;
 }
 
 li {
