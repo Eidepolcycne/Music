@@ -1,7 +1,7 @@
 nav {
   position: fixed;
   top : 0;
-  height: 11vh;
+  height: 13vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -12,6 +12,7 @@ p {
   display: flex;
   justify-content: center;
   color:brown;
+  font-size: larger;
 }
 
 ul {
